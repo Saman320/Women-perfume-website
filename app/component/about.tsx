@@ -43,7 +43,7 @@ const About = () => {
             </p>
 
             <div className="flex justify-center">
-              <Link href="#Contact">
+              <Link href="/contact">
                 <button className="relative inline-flex text-white bg-gradient-to-r from-pink-700 to-pink-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-700 rounded-full text-lg transition duration-300 ease-in-out shadow-md hover:shadow-lg font-[cursive]">
                   Contact
                 </button>

@@ -45,20 +45,18 @@ const Contact = () => {
                 placeholder="Your email"
               />
             </div>
-
             <div className="mb-6">
-              <label htmlFor="message" className="block mb-2 text-pink-900 text-lg font-bold">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-pink-500"
-                placeholder="Your message"
-              ></textarea>
-            </div>
-
+    <label htmlFor="message" className="block mb-2 text-pink-900 text-lg font-bold">
+      Message
+    </label>
+    <textarea
+      id="message"
+      name="message"
+      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-pink-500 text-black"
+      placeholder="Your message"
+      required
+    ></textarea>
+  </div>
             <div className="flex justify-center">
               <button className="bg-gradient-to-r from-pink-700 to-pink-500 text-white font-bold py-3 px-6 rounded-full hover:bg-pink-600 transition duration-300 ease-in-out shadow-lg font-[cursive]">
                 Send Message

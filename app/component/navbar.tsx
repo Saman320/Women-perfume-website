@@ -34,13 +34,13 @@ const Navbar = () => {
           <Link href="/" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
             Home
           </Link>
-          <Link href="#About" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
+          <Link href="/about" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
             About
           </Link>
-          <Link href="#latest" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
+          <Link href="/latest" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
             Latest
           </Link>
-          <Link href="#Contact" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
+          <Link href="/contact" className="text-white hover:bg-pink-300 hover:text-purple-900 px-3 py-1 rounded-md transition-all duration-300 font-medium text-lg">
             Contact
           </Link>
         </nav>
@@ -77,13 +77,13 @@ const Navbar = () => {
           <Link href="/" className="block py-2 text-white hover:bg-pink-300 rounded-md px-4 font-semibold">
             Home
           </Link>
-          <Link href="#About" className="block py-2 text-white hover:bg-pink-300 rounded-md px-4 font-semibold">
+          <Link href="/about" className="block py-2 text-white hover:bg-pink-300 rounded-md px-4 font-semibold">
             About
           </Link>
-          <Link href="#latest" className="block py-2 text-white hover:bg-pink-300  rounded-md px-4 font-semibold">
+          <Link href="/latest" className="block py-2 text-white hover:bg-pink-300  rounded-md px-4 font-semibold">
             Latest
           </Link>
-          <Link href="#contact" className="block py-2 text-white hover:bg-pink-300 rounded-md px-4 font-semibold">
+          <Link href="/contact" className="block py-2 text-white hover:bg-pink-300 rounded-md px-4 font-semibold">
             Contact
           </Link>
         </div>
